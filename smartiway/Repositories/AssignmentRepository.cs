@@ -2,8 +2,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using smartiway.Repositories.Interfaces;
 
-namespace smartiway.Models
+namespace smartiway.Repositories
 {
 	public class AssignmentRepository : IRepository
 	{

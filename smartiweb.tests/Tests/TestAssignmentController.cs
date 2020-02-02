@@ -3,8 +3,10 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using NUnit.Framework;
 using smartiway.Controllers;
+using smartiway.Models;
+using smartiweb.tests.Mocks;
 
-namespace smartiweb.tests
+namespace smartiweb.tests.Tests
 {
 	public class TestAssignmentController
 	{

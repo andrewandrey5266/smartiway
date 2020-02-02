@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using smartiway.Models;
+using smartiway.Repositories.Interfaces;
 
 namespace smartiway.Controllers
 {

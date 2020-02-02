@@ -1,128 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c22ac69-6cd6-46df-af9c-1a30a9929e5c" name="Default Changelist" comment="" />
+    <list default="true" id="8c22ac69-6cd6-46df-af9c-1a30a9929e5c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.smartiway/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.smartiway/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.smartiway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.smartiway/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiway/Controllers/Assignment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/smartiway/Models/Assignment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiway/Controllers/AssignmentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/smartiway/Controllers/AssignmentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiway/Models/AssignmentRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/smartiway/Repositories/AssignmentRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiway/Models/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/smartiway/Repositories/Interfaces/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiway/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/smartiway/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiway/bin/Debug/netcoreapp2.1/smartiway.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/smartiway/bin/Debug/netcoreapp2.1/smartiway.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiway/bin/Debug/netcoreapp2.1/smartiway.dll" beforeDir="false" afterPath="$PROJECT_DIR$/smartiway/bin/Debug/netcoreapp2.1/smartiway.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiway/bin/Debug/netcoreapp2.1/smartiway.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/smartiway/bin/Debug/netcoreapp2.1/smartiway.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiway/obj/Debug/netcoreapp2.1/smartiway.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/smartiway/obj/Debug/netcoreapp2.1/smartiway.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiway/obj/Debug/netcoreapp2.1/smartiway.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/smartiway/obj/Debug/netcoreapp2.1/smartiway.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiway/obj/Debug/netcoreapp2.1/smartiway.dll" beforeDir="false" afterPath="$PROJECT_DIR$/smartiway/obj/Debug/netcoreapp2.1/smartiway.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiway/obj/Debug/netcoreapp2.1/smartiway.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/smartiway/obj/Debug/netcoreapp2.1/smartiway.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/MockRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/Mocks/MockRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/TestAssignmentController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/Tests/TestAssignmentController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/bin/Debug/netcoreapp2.1/nunit_random_seed.tmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/bin/Debug/netcoreapp2.1/smartiway.dll" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/bin/Debug/netcoreapp2.1/smartiway.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/bin/Debug/netcoreapp2.1/smartiway.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/bin/Debug/netcoreapp2.1/smartiway.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/bin/Debug/netcoreapp2.1/smartiweb.tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/bin/Debug/netcoreapp2.1/smartiweb.tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/bin/Debug/netcoreapp2.1/smartiweb.tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/bin/Debug/netcoreapp2.1/smartiweb.tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/bin/Debug/netcoreapp2.1/smartiweb.tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/bin/Debug/netcoreapp2.1/smartiweb.tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/obj/Debug/netcoreapp2.1/smartiweb.tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/obj/Debug/netcoreapp2.1/smartiweb.tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/obj/Debug/netcoreapp2.1/smartiweb.tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/obj/Debug/netcoreapp2.1/smartiweb.tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/obj/Debug/netcoreapp2.1/smartiweb.tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/obj/Debug/netcoreapp2.1/smartiweb.tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/obj/Debug/netcoreapp2.1/smartiweb.tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/obj/Debug/netcoreapp2.1/smartiweb.tests.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/obj/Debug/netcoreapp2.1/smartiweb.tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/obj/Debug/netcoreapp2.1/smartiweb.tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/obj/Debug/netcoreapp2.1/smartiweb.tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/obj/Debug/netcoreapp2.1/smartiweb.tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/obj/smartiweb.tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/obj/smartiweb.tests.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smartiweb.tests/smartiweb.tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/smartiweb.tests/smartiweb.tests.csproj" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2042099577">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csproj" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Csproj" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/smartiway/Controllers/AssignmentController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state relative-caret-position="118">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
               <folding>
-                <marker date="1580683781905" expanded="true" signature="6:138" ph="..." />
-                <marker date="1580683781905" expanded="true" signature="171:3776" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="267:3774" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="389:446" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="512:624" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="714:1125" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="745:790" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="856:926" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="1237:1751" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="1307:1368" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="1475:1550" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="1862:2373" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="1932:1993" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="2099:2173" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="2492:3238" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="2562:2623" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="2706:2778" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="2922:3005" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="3336:3771" ph="{...}" />
-                <marker date="1580683781905" expanded="true" signature="3461:3540" ph="{...}" />
+                <marker date="1580684798304" expanded="false" signature="6:179" ph="..." />
+                <marker date="1580684798304" expanded="true" signature="212:3817" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="308:3815" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="430:487" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="553:665" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="755:1166" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="786:831" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="897:967" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="1278:1792" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="1348:1409" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="1516:1591" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="1903:2414" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="1973:2034" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="2140:2214" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="2533:3279" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="2603:2664" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="2747:2819" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="2963:3046" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="3377:3812" ph="{...}" />
+                <marker date="1580684798304" expanded="true" signature="3502:3581" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smartiway/Controllers/Assignment.cs">
+        <entry file="file://$PROJECT_DIR$/smartiway/Models/Assignment.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
               <folding>
-                <marker date="1580676926042" expanded="true" signature="31:137" ph="{...}" />
-                <marker date="1580676926042" expanded="true" signature="58:135" ph="{...}" />
+                <marker date="1580684798336" expanded="true" signature="26:132" ph="{...}" />
+                <marker date="1580684798336" expanded="true" signature="53:130" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smartiway/Models/AssignmentRepository.cs">
+        <entry file="file://$PROJECT_DIR$/smartiway/Repositories/AssignmentRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1406">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="16">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding>
-                <marker date="1580682219037" expanded="true" signature="6:99" ph="..." />
-                <marker date="1580682219037" expanded="true" signature="127:1603" ph="{...}" />
-                <marker date="1580682219037" expanded="true" signature="178:1601" ph="{...}" />
-                <marker date="1580682219037" expanded="true" signature="260:366" ph="{...}" />
-                <marker date="1580682219037" expanded="true" signature="405:436" ph="{...}" />
-                <marker date="1580682219037" expanded="true" signature="474:514" ph="{...}" />
-                <marker date="1580682219037" expanded="true" signature="547:587" ph="{...}" />
-                <marker date="1580682219037" expanded="true" signature="629:772" ph="{...}" />
-                <marker date="1580682219037" expanded="true" signature="815:958" ph="{...}" />
-                <marker date="1580682219037" expanded="true" signature="1026:1117" ph="{...}" />
-                <marker date="1580682219037" expanded="true" signature="1141:1366" ph="{...}" />
-                <marker date="1580682219037" expanded="true" signature="1234:1331" ph="{...}" />
-                <marker date="1580682219037" expanded="true" signature="1283:1326" ph="{...}" />
-                <marker date="1580682219037" expanded="true" signature="1391:1403" ph="{...}" />
-                <marker date="1580682219037" expanded="true" signature="1448:1499" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="6:140" ph="..." />
+                <marker date="1580684798365" expanded="true" signature="174:1650" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="225:1648" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="307:413" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="452:483" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="521:561" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="594:634" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="676:819" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="862:1005" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="1073:1164" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="1188:1413" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="1281:1378" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="1330:1373" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="1438:1450" ph="{...}" />
+                <marker date="1580684798365" expanded="true" signature="1495:1546" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smartiway/Models/IRepository.cs">
+        <entry file="file://$PROJECT_DIR$/smartiway/Repositories/Interfaces/IRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="32">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
               <folding>
-                <marker date="1580682219025" expanded="true" signature="6:77" ph="..." />
-                <marker date="1580682219025" expanded="true" signature="105:495" ph="{...}" />
-                <marker date="1580682219025" expanded="true" signature="150:493" ph="{...}" />
+                <marker date="1580684798320" expanded="false" signature="6:77" ph="..." />
+                <marker date="1580684798320" expanded="true" signature="122:512" ph="{...}" />
+                <marker date="1580684798320" expanded="true" signature="167:510" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/smartiway/Resources.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
+            <state relative-caret-position="32">
               <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/smartiweb.tests/MockRepository.cs">
+        <entry file="file://$PROJECT_DIR$/smartiweb.tests/Mocks/MockRepository.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+            <state relative-caret-position="32">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding>
-                <marker date="1580682319329" expanded="true" signature="6:87" ph="..." />
-                <marker date="1580682319329" expanded="true" signature="114:1410" ph="{...}" />
-                <marker date="1580682319329" expanded="true" signature="158:1408" ph="{...}" />
-                <marker date="1580682319329" expanded="true" signature="234:360" ph="{...}" />
-                <marker date="1580682319329" expanded="true" signature="276:355" ph="{...}" />
-                <marker date="1580682319329" expanded="true" signature="399:430" ph="{...}" />
-                <marker date="1580682319329" expanded="true" signature="468:508" ph="{...}" />
-                <marker date="1580682319329" expanded="true" signature="541:581" ph="{...}" />
-                <marker date="1580682319329" expanded="true" signature="623:766" ph="{...}" />
-                <marker date="1580682319329" expanded="true" signature="809:952" ph="{...}" />
-                <marker date="1580682319329" expanded="true" signature="1020:1111" ph="{...}" />
-                <marker date="1580682319329" expanded="true" signature="1135:1173" ph="{...}" />
-                <marker date="1580682319329" expanded="true" signature="1198:1210" ph="{...}" />
-                <marker date="1580682319329" expanded="true" signature="1255:1306" ph="{...}" />
+                <marker date="1580684798352" expanded="false" signature="6:104" ph="..." />
+                <marker date="1580684798352" expanded="true" signature="137:1433" ph="{...}" />
+                <marker date="1580684798352" expanded="true" signature="181:1431" ph="{...}" />
+                <marker date="1580684798352" expanded="true" signature="257:383" ph="{...}" />
+                <marker date="1580684798352" expanded="true" signature="299:378" ph="{...}" />
+                <marker date="1580684798352" expanded="true" signature="422:453" ph="{...}" />
+                <marker date="1580684798352" expanded="true" signature="491:531" ph="{...}" />
+                <marker date="1580684798352" expanded="true" signature="564:604" ph="{...}" />
+                <marker date="1580684798352" expanded="true" signature="646:789" ph="{...}" />
+                <marker date="1580684798352" expanded="true" signature="832:975" ph="{...}" />
+                <marker date="1580684798352" expanded="true" signature="1043:1134" ph="{...}" />
+                <marker date="1580684798352" expanded="true" signature="1158:1196" ph="{...}" />
+                <marker date="1580684798352" expanded="true" signature="1221:1233" ph="{...}" />
+                <marker date="1580684798352" expanded="true" signature="1278:1329" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -134,7 +189,6 @@
             <state>
               <folding>
                 <marker date="1580684083482" expanded="true" signature="6:63" ph="..." />
-                <marker date="1580684083482" expanded="true" signature="84:348" ph="{...}" />
                 <marker date="1580684083482" expanded="true" signature="108:346" ph="{...}" />
                 <marker date="1580684083482" expanded="true" signature="152:205" ph="{...}" />
               </folding>
@@ -148,39 +202,48 @@
             <state>
               <caret column="13" selection-start-column="13" selection-end-column="13" />
               <folding>
-                <marker date="1580684090519" expanded="true" signature="6:292" ph="..." />
-                <marker date="1580684090519" expanded="true" signature="313:1417" ph="{...}" />
-                <marker date="1580684090519" expanded="true" signature="337:1415" ph="{...}" />
-                <marker date="1580684090519" expanded="true" signature="387:429" ph="{...}" />
-                <marker date="1580684090519" expanded="true" signature="712:1068" ph="{...}" />
-                <marker date="1580684090519" expanded="true" signature="1244:1412" ph="{...}" />
-                <marker date="1580684090519" expanded="true" signature="1276:1323" ph="{...}" />
-                <marker date="1580684090519" expanded="true" signature="1331:1360" ph="{...}" />
+                <marker date="1580684798258" expanded="true" signature="6:268" ph="..." />
+                <marker date="1580684798258" expanded="true" signature="384:1462" ph="{...}" />
+                <marker date="1580684798258" expanded="true" signature="434:476" ph="{...}" />
+                <marker date="1580684798258" expanded="true" signature="759:1115" ph="{...}" />
+                <marker date="1580684798258" expanded="true" signature="1291:1459" ph="{...}" />
+                <marker date="1580684798258" expanded="true" signature="1323:1370" ph="{...}" />
+                <marker date="1580684798258" expanded="true" signature="1378:1407" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/smartiweb.tests/TestAssignmentController.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartiweb.tests/Tests/TestAssignmentController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+            <state relative-caret-position="-16">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding>
-                <marker date="1580683881591" expanded="true" signature="6:136" ph="..." />
-                <marker date="1580683881591" expanded="true" signature="163:3283" ph="{...}" />
-                <marker date="1580683881591" expanded="true" signature="204:3281" ph="{...}" />
-                <marker date="1580683881591" expanded="true" signature="269:618" ph="{...}" />
-                <marker date="1580683881591" expanded="true" signature="688:1004" ph="{...}" />
-                <marker date="1580683881591" expanded="true" signature="1084:1449" ph="{...}" />
-                <marker date="1580683881591" expanded="true" signature="1509:1956" ph="{...}" />
-                <marker date="1580683881591" expanded="true" signature="2014:2462" ph="{...}" />
-                <marker date="1580683881591" expanded="true" signature="2528:2983" ph="{...}" />
-                <marker date="1580683881591" expanded="true" signature="3041:3275" ph="{...}" />
-                <marker date="1580683881591" expanded="true" signature="3109:3218" ph="{...}" />
+                <marker date="1580684798283" expanded="false" signature="6:136" ph="..." />
+                <marker date="1580684798283" expanded="true" signature="222:3342" ph="{...}" />
+                <marker date="1580684798283" expanded="true" signature="263:3340" ph="{...}" />
+                <marker date="1580684798283" expanded="true" signature="328:677" ph="{...}" />
+                <marker date="1580684798283" expanded="true" signature="747:1063" ph="{...}" />
+                <marker date="1580684798283" expanded="true" signature="1143:1508" ph="{...}" />
+                <marker date="1580684798283" expanded="true" signature="1568:2015" ph="{...}" />
+                <marker date="1580684798283" expanded="true" signature="2073:2521" ph="{...}" />
+                <marker date="1580684798283" expanded="true" signature="2587:3042" ph="{...}" />
+                <marker date="1580684798283" expanded="true" signature="3100:3334" ph="{...}" />
+                <marker date="1580684798283" expanded="true" signature="3168:3277" ph="{...}" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartiway/smartiway.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/smartiweb.tests/smartiweb.tests.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -200,49 +263,19 @@
       <replace>_assignmentRepository</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/smartiway/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/smartiweb.tests/TestAssignmentController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/smartiweb.tests/MockRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/99/381a3383/String.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/ce/75b6a0ba/ActionResult`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/29/81043be5/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/smartiway/Models/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/9b/6579c3c3/Array.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/21/bdd51df2/ActionResult.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/87/fdedfa83/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/smartiway/Controllers/Assignment.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/smartiway/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/a5/5e4035fd/ObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/smartiway/Models/AssignmentRepository.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/27FAC526-A042-4B73-AEC3-616A6586AC97/66/53d9f582/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/b9/9ee3e5fc/OkObjectResult.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/02ADC355-64F9-419E-ACEC-A04FB251D6D6/14/8fabfaee/ISetup`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/smartiway/Controllers/AssignmentController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/78/ed4a4d5b/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7120A6DF-22D4-44D1-8412-BE8348ACBBE6/bc/4a627706/SessionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/502a844c0b104731c7f5d57ef6d0df436d4b75af/src/NUnitFramework/framework/Internal/Reflect.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/02ADC355-64F9-419E-ACEC-A04FB251D6D6/9a/006cc724/Mock`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BE18595-83F0-4347-8833-892371F2B6F7/9c/9d1089e5/DefaultHttpContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/3d/54277e3d/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/560D56F8-376D-4258-A59A-D5478913C777/14/04551309/HttpContext.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/a2/4a00a1de/Thread.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/8b/1a25c36a/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/a6/825e193f/RuntimeMethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/16/3e75c1d4/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/72/3e4cd58d/OkResult.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A7538FB0-6ED7-462D-B19F-FFC46339EBFE/f2/f9c35379/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/smartiway/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/smartiweb.tests/Mocks/MockRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/smartiway/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/smartiway/Controllers/AssignmentController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/smartiway/Models/Assignment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/smartiway/Repositories/AssignmentRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/smartiweb.tests/Tests/TestAssignmentController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/smartiway/Repositories/Interfaces/IRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -260,8 +293,20 @@
         <option value="$PROJECT_DIR$/smartiway/Program.cs" />
         <option value="$PROJECT_DIR$/smartiway/Startup.cs" />
         <option value="$PROJECT_DIR$/smartiway/Resources.txt" />
+        <option value="$PROJECT_DIR$/smartiweb.tests/smartiweb.tests.csproj" />
+        <option value="$PROJECT_DIR$/smartiweb.tests/Tests/TestAssignmentController.cs" />
+        <option value="$PROJECT_DIR$/smartiweb.tests/Mocks/MockRepository.cs" />
+        <option value="$PROJECT_DIR$/smartiway/Repositories/AssignmentRepository.cs" />
+        <option value="$PROJECT_DIR$/smartiway/Repositories/Interfaces/IRepository.cs" />
+        <option value="$PROJECT_DIR$/smartiway/Models/Assignment.cs" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="30" />
@@ -269,12 +314,14 @@
     <option name="width" value="1945" />
     <option name="height" value="1105" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -291,19 +338,6 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
               <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-              <item name=".NETCoreApp 2.1" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
@@ -315,7 +349,61 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repositories" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repositories" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Interfaces" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
               <item name="smartiweb.tests" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="smartiweb.tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="smartiweb.tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETCoreApp 2.1" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="smartiweb.tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETCoreApp 2.1" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Projects" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="smartiweb.tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETCoreApp 2.1" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Packages" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="smartiweb.tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Mocks" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="smartiway" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="smartiweb.tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tests" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -323,6 +411,7 @@
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,19 +437,24 @@
   </component>
   <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/smartiway/bin/Debug/netcoreapp2.1/smartiway.dll" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/smartiway" />
       <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="https://localhost:5001;http://localhost:5000" />
+      </envs>
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/smartiway/smartiway.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser start="true" url="https://localhost:5001" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
@@ -391,11 +485,13 @@
       <option name="presentableId" value="Default" />
       <updated>1580662157647</updated>
       <workItem from="1580662160232" duration="20387000" />
+      <workItem from="1580684474591" duration="123000" />
+      <workItem from="1580684663468" duration="166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20387000" />
+    <option name="totallyTimeSpent" value="20676000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,41 +504,45 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" weight="0.42917848" />
-      <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Build" weight="0.3286119" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26203966" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2609929" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2733711" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32765958" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.4283688" />
+      <window_info anchor="bottom" id="REST Client" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32765958" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -451,40 +551,40 @@
           <option name="timeStamp" value="1" />
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/smartiweb.tests/TestAssignmentController.cs</url>
+          <url>file://$PROJECT_DIR$/smartiweb.tests/Tests/TestAssignmentController.cs</url>
           <line>17</line>
           <properties documentPath="$PROJECT_DIR$/smartiweb.tests/TestAssignmentController.cs" initialLine="17">
             <startOffsets>
-              <option value="553" />
+              <option value="612" />
             </startOffsets>
             <endOffsets>
-              <option value="608" />
+              <option value="667" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/smartiweb.tests/TestAssignmentController.cs</url>
+          <url>file://$PROJECT_DIR$/smartiweb.tests/Tests/TestAssignmentController.cs</url>
           <line>28</line>
           <properties documentPath="$PROJECT_DIR$/smartiweb.tests/TestAssignmentController.cs" initialLine="26">
             <startOffsets>
-              <option value="960" />
+              <option value="1019" />
             </startOffsets>
             <endOffsets>
-              <option value="994" />
+              <option value="1053" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/smartiweb.tests/TestAssignmentController.cs</url>
+          <url>file://$PROJECT_DIR$/smartiweb.tests/Tests/TestAssignmentController.cs</url>
           <line>37</line>
           <properties documentPath="$PROJECT_DIR$/smartiweb.tests/TestAssignmentController.cs" initialLine="37">
             <startOffsets>
-              <option value="1255" />
+              <option value="1314" />
             </startOffsets>
             <endOffsets>
-              <option value="1358" />
+              <option value="1417" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="13" />
@@ -539,216 +639,29 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/72/3e4cd58d/OkResult.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smartiway/Controllers/WeatherForecastController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/16/3e75c1d4/IDisposable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BE18595-83F0-4347-8833-892371F2B6F7/9c/9d1089e5/DefaultHttpContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/560D56F8-376D-4258-A59A-D5478913C777/14/04551309/HttpContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <marker date="1580670134316" expanded="true" signature="0:428" ph="/* Decompiled with JetBrains decompiler ... */" />
-            <marker date="1580670134316" expanded="false" signature="436:621" ph="..." />
-            <marker date="1580670134316" expanded="true" signature="658:3603" ph="{...}" />
-            <marker date="1580670134316" expanded="true" signature="663:776" ph="/// Encapsulates all HTTP-specific information about an individual HTTP request. ... " />
-            <marker date="1580670134316" expanded="true" signature="812:3601" ph="{...}" />
-            <marker date="1580670134316" expanded="true" signature="821:963" ph="/// Gets the collection of HTTP features provided by the server and middleware available on this request. ... " />
-            <marker date="1580670134316" expanded="true" signature="1026:1155" ph="/// Gets the &lt;see cref=&quot;T:Microsoft.AspNetCore.Http.HttpRequest&quot; /&gt; object for this request. ... " />
-            <marker date="1580670134316" expanded="true" signature="1210:1340" ph="/// Gets the &lt;see cref=&quot;T:Microsoft.AspNetCore.Http.HttpResponse&quot; /&gt; object for this request. ... " />
-            <marker date="1580670134316" expanded="true" signature="1397:1504" ph="/// Gets information about the underlying connection for this request. ... " />
-            <marker date="1580670134316" expanded="true" signature="1565:1694" ph="/// Gets an object that manages the establishment of WebSocket connections for this request. ... " />
-            <marker date="1580670134316" expanded="true" signature="1757:2034" ph="/// This is obsolete and will be removed in a future version. ... " />
-            <marker date="1580670134316" expanded="true" signature="2468:2609" ph="/// Gets or sets a key/value collection that can be used to share data within the scope of this request. ... " />
-            <marker date="1580670134316" expanded="true" signature="2683:2838" ph="/// Gets or sets the &lt;see cref=&quot;T:System.IServiceProvider&quot; /&gt; that provides access to the request's service conta ... " />
-            <marker date="1580670134316" expanded="true" signature="2911:3072" ph="/// Notifies when the connection underlying this request is aborted and thus request operations should be ... " />
-            <marker date="1580670134316" expanded="true" signature="3145:3259" ph="/// Gets or sets a unique identifier to represent this request in trace logs. ... " />
-            <marker date="1580670134316" expanded="true" signature="3322:3437" ph="/// Gets or sets the object used to manage user session data for this request. ... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7120A6DF-22D4-44D1-8412-BE8348ACBBE6/bc/4a627706/SessionExtensions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smartiway/Controllers/ValuesController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/72/3e4cd58d/OkResult.cs" />
+    <entry file="file://$PROJECT_DIR$/smartiway/Controllers/WeatherForecastController.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/16/3e75c1d4/IDisposable.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BE18595-83F0-4347-8833-892371F2B6F7/9c/9d1089e5/DefaultHttpContext.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/560D56F8-376D-4258-A59A-D5478913C777/14/04551309/HttpContext.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7120A6DF-22D4-44D1-8412-BE8348ACBBE6/bc/4a627706/SessionExtensions.cs" />
+    <entry file="file://$PROJECT_DIR$/smartiway/Controllers/ValuesController.cs" />
     <entry file="file://$PROJECT_DIR$/smartiway/appsettings.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/smartiway/appsettings.Development.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/78/ed4a4d5b/ThrowHelper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
-          <folding>
-            <marker date="1580672292649" expanded="true" signature="0:324" ph="/* Decompiled with JetBrains decompiler ... */" />
-            <marker date="1580672292649" expanded="false" signature="332:483" ph="..." />
-            <marker date="1580672292649" expanded="true" signature="501:13291" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="560:13289" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="623:681" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="765:893" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="951:1007" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="1068:1127" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="1198:1278" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="1354:1439" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="1506:1643" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="1723:1868" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="1959:2105" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="2192:2334" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="2416:2553" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="2641:2737" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="2829:2929" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="3029:3129" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="3210:3304" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="3366:3441" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="3518:3586" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="3704:3782" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="3884:3975" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="4056:4128" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="4209:4301" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="4423:4554" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="4641:4737" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="4865:4953" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="5104:5205" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="5290:5366" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="5447:5557" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="5655:5754" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="5836:5929" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="6006:6094" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="6167:6251" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="6332:6424" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="6511:6609" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="6711:6817" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="6900:7009" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="7064:7117" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="7195:7280" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="7334:7386" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="7463:7566" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="7657:7774" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="7860:7972" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="8052:8137" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="8231:8351" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="8444:8563" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="8647:8757" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="8849:8984" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="9113:9217" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="9347:9915" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="10009:10098" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="10209:10306" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="10419:10536" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="10653:10774" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="10851:10965" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="11114:11252" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="11380:11508" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="11679:11854" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="11959:12136" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="12308:12448" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="12566:12612" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="12732:12800" ph="{...}" />
-            <marker date="1580672292649" expanded="true" signature="12874:13285" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/99/381a3383/String.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="2678" column="6" selection-start-line="2678" selection-start-column="6" selection-end-line="2678" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/02ADC355-64F9-419E-ACEC-A04FB251D6D6/9a/006cc724/Mock`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="452" column="13" selection-start-line="452" selection-start-column="13" selection-end-line="452" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/27FAC526-A042-4B73-AEC3-616A6586AC97/66/53d9f582/Enumerable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="959" column="22" selection-start-line="959" selection-start-column="22" selection-end-line="959" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/02ADC355-64F9-419E-ACEC-A04FB251D6D6/14/8fabfaee/ISetup`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/9b/6579c3c3/Array.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/8b/1a25c36a/List`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="141" column="13" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smartiway/Models/IPriorityReader.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A7538FB0-6ED7-462D-B19F-FFC46339EBFE/f2/f9c35379/Enumerable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="970" column="70" lean-forward="true" selection-start-line="970" selection-start-column="70" selection-end-line="970" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/a6/825e193f/RuntimeMethodInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="419" column="85" selection-start-line="419" selection-start-column="85" selection-end-line="419" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/78/ed4a4d5b/ThrowHelper.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/99/381a3383/String.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/02ADC355-64F9-419E-ACEC-A04FB251D6D6/9a/006cc724/Mock`1.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/27FAC526-A042-4B73-AEC3-616A6586AC97/66/53d9f582/Enumerable.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/02ADC355-64F9-419E-ACEC-A04FB251D6D6/14/8fabfaee/ISetup`1.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/9b/6579c3c3/Array.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/8b/1a25c36a/List`1.cs" />
+    <entry file="file://$PROJECT_DIR$/smartiway/Models/IPriorityReader.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A7538FB0-6ED7-462D-B19F-FFC46339EBFE/f2/f9c35379/Enumerable.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/a6/825e193f/RuntimeMethodInfo.cs" />
     <entry file="file://$USER_HOME$/AppData/Local/Symbols/src/nunit/nunit/502a844c0b104731c7f5d57ef6d0df436d4b75af/src/NUnitFramework/framework/Internal/Reflect.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -756,144 +669,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/ce/75b6a0ba/ActionResult`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/21/bdd51df2/ActionResult.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/a5/5e4035fd/ObjectResult.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/29/81043be5/IEnumerable`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/b9/9ee3e5fc/OkObjectResult.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/87/fdedfa83/ControllerBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="379" column="6" selection-start-line="379" selection-start-column="6" selection-end-line="379" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/a2/4a00a1de/Thread.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="112" column="8" selection-start-line="112" selection-start-column="8" selection-end-line="112" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/3d/54277e3d/Task`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="208" column="8" selection-start-line="208" selection-start-column="8" selection-end-line="208" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smartiway/Controllers/AssignmentController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <marker date="1580683781905" expanded="true" signature="6:138" ph="..." />
-            <marker date="1580683781905" expanded="true" signature="171:3776" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="267:3774" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="389:446" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="512:624" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="714:1125" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="745:790" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="856:926" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="1237:1751" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="1307:1368" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="1475:1550" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="1862:2373" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="1932:1993" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="2099:2173" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="2492:3238" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="2562:2623" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="2706:2778" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="2922:3005" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="3336:3771" ph="{...}" />
-            <marker date="1580683781905" expanded="true" signature="3461:3540" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smartiway/Controllers/Assignment.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding>
-            <marker date="1580676926042" expanded="true" signature="31:137" ph="{...}" />
-            <marker date="1580676926042" expanded="true" signature="58:135" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smartiway/Models/AssignmentRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <marker date="1580682219037" expanded="true" signature="6:99" ph="..." />
-            <marker date="1580682219037" expanded="true" signature="127:1603" ph="{...}" />
-            <marker date="1580682219037" expanded="true" signature="178:1601" ph="{...}" />
-            <marker date="1580682219037" expanded="true" signature="260:366" ph="{...}" />
-            <marker date="1580682219037" expanded="true" signature="405:436" ph="{...}" />
-            <marker date="1580682219037" expanded="true" signature="474:514" ph="{...}" />
-            <marker date="1580682219037" expanded="true" signature="547:587" ph="{...}" />
-            <marker date="1580682219037" expanded="true" signature="629:772" ph="{...}" />
-            <marker date="1580682219037" expanded="true" signature="815:958" ph="{...}" />
-            <marker date="1580682219037" expanded="true" signature="1026:1117" ph="{...}" />
-            <marker date="1580682219037" expanded="true" signature="1141:1366" ph="{...}" />
-            <marker date="1580682219037" expanded="true" signature="1234:1331" ph="{...}" />
-            <marker date="1580682219037" expanded="true" signature="1283:1326" ph="{...}" />
-            <marker date="1580682219037" expanded="true" signature="1391:1403" ph="{...}" />
-            <marker date="1580682219037" expanded="true" signature="1448:1499" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smartiway/Models/IRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <marker date="1580682219025" expanded="true" signature="6:77" ph="..." />
-            <marker date="1580682219025" expanded="true" signature="105:495" ph="{...}" />
-            <marker date="1580682219025" expanded="true" signature="150:493" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/ce/75b6a0ba/ActionResult`1.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/21/bdd51df2/ActionResult.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/a5/5e4035fd/ObjectResult.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/29/81043be5/IEnumerable`1.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/b9/9ee3e5fc/OkObjectResult.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ED07561A-F00F-4966-8EBC-547EA3E7CE17/87/fdedfa83/ControllerBase.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/a2/4a00a1de/Thread.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/341DFE22-562E-4DB3-8729-B233A8CD1A5F/3d/54277e3d/Task`1.cs" />
     <entry file="file://$PROJECT_DIR$/smartiway/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <marker date="1580684083482" expanded="true" signature="6:63" ph="..." />
-            <marker date="1580684083482" expanded="true" signature="84:348" ph="{...}" />
             <marker date="1580684083482" expanded="true" signature="108:346" ph="{...}" />
             <marker date="1580684083482" expanded="true" signature="152:205" ph="{...}" />
           </folding>
@@ -905,65 +693,146 @@
         <state>
           <caret column="13" selection-start-column="13" selection-end-column="13" />
           <folding>
-            <marker date="1580684090519" expanded="true" signature="6:292" ph="..." />
-            <marker date="1580684090519" expanded="true" signature="313:1417" ph="{...}" />
-            <marker date="1580684090519" expanded="true" signature="337:1415" ph="{...}" />
-            <marker date="1580684090519" expanded="true" signature="387:429" ph="{...}" />
-            <marker date="1580684090519" expanded="true" signature="712:1068" ph="{...}" />
-            <marker date="1580684090519" expanded="true" signature="1244:1412" ph="{...}" />
-            <marker date="1580684090519" expanded="true" signature="1276:1323" ph="{...}" />
-            <marker date="1580684090519" expanded="true" signature="1331:1360" ph="{...}" />
+            <marker date="1580684798258" expanded="true" signature="6:268" ph="..." />
+            <marker date="1580684798258" expanded="true" signature="384:1462" ph="{...}" />
+            <marker date="1580684798258" expanded="true" signature="434:476" ph="{...}" />
+            <marker date="1580684798258" expanded="true" signature="759:1115" ph="{...}" />
+            <marker date="1580684798258" expanded="true" signature="1291:1459" ph="{...}" />
+            <marker date="1580684798258" expanded="true" signature="1323:1370" ph="{...}" />
+            <marker date="1580684798258" expanded="true" signature="1378:1407" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartiway/smartiway.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartiweb.tests/smartiweb.tests.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartiweb.tests/Tests/TestAssignmentController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <marker date="1580684798283" expanded="false" signature="6:136" ph="..." />
+            <marker date="1580684798283" expanded="true" signature="222:3342" ph="{...}" />
+            <marker date="1580684798283" expanded="true" signature="263:3340" ph="{...}" />
+            <marker date="1580684798283" expanded="true" signature="328:677" ph="{...}" />
+            <marker date="1580684798283" expanded="true" signature="747:1063" ph="{...}" />
+            <marker date="1580684798283" expanded="true" signature="1143:1508" ph="{...}" />
+            <marker date="1580684798283" expanded="true" signature="1568:2015" ph="{...}" />
+            <marker date="1580684798283" expanded="true" signature="2073:2521" ph="{...}" />
+            <marker date="1580684798283" expanded="true" signature="2587:3042" ph="{...}" />
+            <marker date="1580684798283" expanded="true" signature="3100:3334" ph="{...}" />
+            <marker date="1580684798283" expanded="true" signature="3168:3277" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartiweb.tests/Mocks/MockRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1580684798352" expanded="false" signature="6:104" ph="..." />
+            <marker date="1580684798352" expanded="true" signature="137:1433" ph="{...}" />
+            <marker date="1580684798352" expanded="true" signature="181:1431" ph="{...}" />
+            <marker date="1580684798352" expanded="true" signature="257:383" ph="{...}" />
+            <marker date="1580684798352" expanded="true" signature="299:378" ph="{...}" />
+            <marker date="1580684798352" expanded="true" signature="422:453" ph="{...}" />
+            <marker date="1580684798352" expanded="true" signature="491:531" ph="{...}" />
+            <marker date="1580684798352" expanded="true" signature="564:604" ph="{...}" />
+            <marker date="1580684798352" expanded="true" signature="646:789" ph="{...}" />
+            <marker date="1580684798352" expanded="true" signature="832:975" ph="{...}" />
+            <marker date="1580684798352" expanded="true" signature="1043:1134" ph="{...}" />
+            <marker date="1580684798352" expanded="true" signature="1158:1196" ph="{...}" />
+            <marker date="1580684798352" expanded="true" signature="1221:1233" ph="{...}" />
+            <marker date="1580684798352" expanded="true" signature="1278:1329" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartiway/Repositories/AssignmentRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <marker date="1580684798365" expanded="true" signature="6:140" ph="..." />
+            <marker date="1580684798365" expanded="true" signature="174:1650" ph="{...}" />
+            <marker date="1580684798365" expanded="true" signature="225:1648" ph="{...}" />
+            <marker date="1580684798365" expanded="true" signature="307:413" ph="{...}" />
+            <marker date="1580684798365" expanded="true" signature="452:483" ph="{...}" />
+            <marker date="1580684798365" expanded="true" signature="521:561" ph="{...}" />
+            <marker date="1580684798365" expanded="true" signature="594:634" ph="{...}" />
+            <marker date="1580684798365" expanded="true" signature="676:819" ph="{...}" />
+            <marker date="1580684798365" expanded="true" signature="862:1005" ph="{...}" />
+            <marker date="1580684798365" expanded="true" signature="1073:1164" ph="{...}" />
+            <marker date="1580684798365" expanded="true" signature="1188:1413" ph="{...}" />
+            <marker date="1580684798365" expanded="true" signature="1281:1378" ph="{...}" />
+            <marker date="1580684798365" expanded="true" signature="1330:1373" ph="{...}" />
+            <marker date="1580684798365" expanded="true" signature="1438:1450" ph="{...}" />
+            <marker date="1580684798365" expanded="true" signature="1495:1546" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartiway/Repositories/Interfaces/IRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <marker date="1580684798320" expanded="false" signature="6:77" ph="..." />
+            <marker date="1580684798320" expanded="true" signature="122:512" ph="{...}" />
+            <marker date="1580684798320" expanded="true" signature="167:510" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartiway/Models/Assignment.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <marker date="1580684798336" expanded="true" signature="26:132" ph="{...}" />
+            <marker date="1580684798336" expanded="true" signature="53:130" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smartiway/Controllers/AssignmentController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <marker date="1580684798304" expanded="false" signature="6:179" ph="..." />
+            <marker date="1580684798304" expanded="true" signature="212:3817" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="308:3815" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="430:487" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="553:665" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="755:1166" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="786:831" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="897:967" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="1278:1792" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="1348:1409" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="1516:1591" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="1903:2414" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="1973:2034" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="2140:2214" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="2533:3279" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="2603:2664" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="2747:2819" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="2963:3046" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="3377:3812" ph="{...}" />
+            <marker date="1580684798304" expanded="true" signature="3502:3581" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/smartiway/Resources.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="32">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smartiweb.tests/MockRepository.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <marker date="1580682319329" expanded="true" signature="6:87" ph="..." />
-            <marker date="1580682319329" expanded="true" signature="114:1410" ph="{...}" />
-            <marker date="1580682319329" expanded="true" signature="158:1408" ph="{...}" />
-            <marker date="1580682319329" expanded="true" signature="234:360" ph="{...}" />
-            <marker date="1580682319329" expanded="true" signature="276:355" ph="{...}" />
-            <marker date="1580682319329" expanded="true" signature="399:430" ph="{...}" />
-            <marker date="1580682319329" expanded="true" signature="468:508" ph="{...}" />
-            <marker date="1580682319329" expanded="true" signature="541:581" ph="{...}" />
-            <marker date="1580682319329" expanded="true" signature="623:766" ph="{...}" />
-            <marker date="1580682319329" expanded="true" signature="809:952" ph="{...}" />
-            <marker date="1580682319329" expanded="true" signature="1020:1111" ph="{...}" />
-            <marker date="1580682319329" expanded="true" signature="1135:1173" ph="{...}" />
-            <marker date="1580682319329" expanded="true" signature="1198:1210" ph="{...}" />
-            <marker date="1580682319329" expanded="true" signature="1255:1306" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smartiweb.tests/TestAssignmentController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding>
-            <marker date="1580683881591" expanded="true" signature="6:136" ph="..." />
-            <marker date="1580683881591" expanded="true" signature="163:3283" ph="{...}" />
-            <marker date="1580683881591" expanded="true" signature="204:3281" ph="{...}" />
-            <marker date="1580683881591" expanded="true" signature="269:618" ph="{...}" />
-            <marker date="1580683881591" expanded="true" signature="688:1004" ph="{...}" />
-            <marker date="1580683881591" expanded="true" signature="1084:1449" ph="{...}" />
-            <marker date="1580683881591" expanded="true" signature="1509:1956" ph="{...}" />
-            <marker date="1580683881591" expanded="true" signature="2014:2462" ph="{...}" />
-            <marker date="1580683881591" expanded="true" signature="2528:2983" ph="{...}" />
-            <marker date="1580683881591" expanded="true" signature="3041:3275" ph="{...}" />
-            <marker date="1580683881591" expanded="true" signature="3109:3218" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>

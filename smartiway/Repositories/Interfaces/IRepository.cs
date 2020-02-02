@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace smartiway.Models
+namespace smartiway.Repositories.Interfaces
 {
 	public interface IRepository: IDisposable
 	{

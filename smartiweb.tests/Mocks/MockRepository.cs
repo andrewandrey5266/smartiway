@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using smartiway.Models;
+using smartiway.Repositories.Interfaces;
 
-namespace smartiweb.tests
+namespace smartiweb.tests.Mocks
 {
 	public class MockRepository: IRepository
 	{

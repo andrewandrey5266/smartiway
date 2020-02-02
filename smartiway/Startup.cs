@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using smartiway.Models;
+using smartiway.Repositories;
+using smartiway.Repositories.Interfaces;
 
 namespace smartiway
 {

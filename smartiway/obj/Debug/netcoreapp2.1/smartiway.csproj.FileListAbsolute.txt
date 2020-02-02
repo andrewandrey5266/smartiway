@@ -12,3 +12,17 @@ C:\Users\Dusheba\Desktop\smartiway\smartiway\obj\Debug\netcoreapp2.1\smartiway.A
 C:\Users\Dusheba\Desktop\smartiway\smartiway\obj\Debug\netcoreapp2.1\smartiway.RazorTargetAssemblyInfo.cache
 C:\Users\Dusheba\Desktop\smartiway\smartiway\obj\Debug\netcoreapp2.1\smartiway.dll
 C:\Users\Dusheba\Desktop\smartiway\smartiway\obj\Debug\netcoreapp2.1\smartiway.pdb
+C:\huhuhu]\smartiway\smartiway\bin\Debug\netcoreapp2.1\smartiway.deps.json
+C:\huhuhu]\smartiway\smartiway\bin\Debug\netcoreapp2.1\smartiway.runtimeconfig.json
+C:\huhuhu]\smartiway\smartiway\bin\Debug\netcoreapp2.1\smartiway.runtimeconfig.dev.json
+C:\huhuhu]\smartiway\smartiway\bin\Debug\netcoreapp2.1\smartiway.dll
+C:\huhuhu]\smartiway\smartiway\bin\Debug\netcoreapp2.1\smartiway.pdb
+C:\huhuhu]\smartiway\smartiway\obj\Debug\netcoreapp2.1\smartiway.csprojAssemblyReference.cache
+C:\huhuhu]\smartiway\smartiway\obj\Debug\netcoreapp2.1\smartiway.csproj.CoreCompileInputs.cache
+C:\huhuhu]\smartiway\smartiway\obj\Debug\netcoreapp2.1\smartiway.RazorAssemblyInfo.cache
+C:\huhuhu]\smartiway\smartiway\obj\Debug\netcoreapp2.1\smartiway.RazorAssemblyInfo.cs
+C:\huhuhu]\smartiway\smartiway\obj\Debug\netcoreapp2.1\smartiway.AssemblyInfoInputs.cache
+C:\huhuhu]\smartiway\smartiway\obj\Debug\netcoreapp2.1\smartiway.AssemblyInfo.cs
+C:\huhuhu]\smartiway\smartiway\obj\Debug\netcoreapp2.1\smartiway.RazorTargetAssemblyInfo.cache
+C:\huhuhu]\smartiway\smartiway\obj\Debug\netcoreapp2.1\smartiway.dll
+C:\huhuhu]\smartiway\smartiway\obj\Debug\netcoreapp2.1\smartiway.pdb

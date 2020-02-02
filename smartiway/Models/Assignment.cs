@@ -1,4 +1,4 @@
-namespace smartiway.Controllers
+namespace smartiway.Models
 {
 	public class Assignment
 	{
